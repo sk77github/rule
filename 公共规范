@@ -5,3 +5,9 @@ yum install zlib-devel bzip2-devel openssl-devel ncurses-devel zx-devel sqlite-d
 这实际上是Linux环境配置问题，Linux的工作方式以及它的相关概念（包，头，编译，依赖，扩展，二进制等等）
 以及要创建相关的安装和运行用户和组
 
+
+
+Linux下软件组成及目录分布：
+
+软件主目录
+软件主程序 程序所需要的库  数据存放目录  log存放目录  配置文件所在位置  二进制程序目录  常用工具目录
