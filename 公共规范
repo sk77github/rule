@@ -2,8 +2,13 @@ yum groupinstall "Development tools"
 yum install zlib-devel bzip2-devel openssl-devel ncurses-devel zx-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel python-devel libffi-devel libxml2-devel openssl-devel libxslt-devel gcc libgcc glibc
 以上这些必要的基础依赖，在以后其他组件的安装及使用过程中需要用到，所以要提前装好
 对于基础依赖，要有个共识印象.
+
 这实际上是Linux环境配置问题，Linux的工作方式以及它的相关概念（包，头，编译，依赖，扩展，二进制等等）
 以及要创建相关的安装和运行用户和组
+
+各个组件以及语言的版本适配，一定要注意，并且软件版本经常变化，一定要注意使用的是互相适配的版本。
+
+
 
 
 
